@@ -94,7 +94,7 @@ def main(message):
                 stop = types.InlineKeyboardButton(f"[ 𝐒𝐓𝐎𝐏 ]", callback_data='stop')
                 mes.add(cm1, status, cm3, cm4, cm5, cm6, stop)
                 bot.edit_message_text(chat_id=message.chat.id, message_id=koko,
-                                      text='''WAITING MONEY ➜ @maho_s9 ''', reply_markup=mes)
+                                      text='''WAITING MONEY ➜ @B_0_ta ''', reply_markup=mes)
 
     except Exception as e:
         print(e)
@@ -162,7 +162,7 @@ def infobin(P, stay, kill, start_time, message):
 - 𝐎𝐓𝐇𝐄𝐑 ⇾ {vendor}
 - 𝐓𝐢𝐦𝐞⇾ {duration}s
 ━━━━━━━━━━━━━━━━━
-◆ 𝐁𝐘: @maho_s9
+◆ 𝐁𝐘: @B_0_ta
     """
 
     bot.reply_to(message, msg)
