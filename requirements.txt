@@ -1,3 +1,2 @@
 telebot
-bs4
-BeautifulSoup
+BeautifulSoup4
