@@ -1,1 +1,1 @@
-worker: python bot-chel.py
+worker: python main.py
