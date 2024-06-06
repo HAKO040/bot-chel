@@ -11,11 +11,11 @@ bot=telebot.TeleBot(token,parse_mode="HTML")
 def start(message):
 	id = message.from_user.id
 	if not id == admin:
-		bot.reply_to(message,'عذر ليش مشترك في البوت\n @H_D_il / @@H_D_il')
+		bot.reply_to(message,'عذر ليش مشترك في البوت\n @H_D_il / @H_D_il')
 	else:
 			bot.reply_to(message,"Send the file now \n ارسل الملف الان")
 import re,requests
-#HAKOU_@@H_D_il
+#HAKOU_@H_D_il
 #البوابه ليس لي البيع 
 def brn(ccx):
 	import requests
@@ -222,9 +222,9 @@ def main(message):
 				cm3 = types.InlineKeyboardButton(f"❎CNN {live}", callback_data='x')
 				cm4 = types.InlineKeyboardButton(f"♻️Declined {dd}", callback_data='x')
 				stop = types.InlineKeyboardButton(f"STOP", callback_data='u8')
-				yasir5 = types.InlineKeyboardButton(f"dev @@H_D_il", url= 'https://t.me/@H_D_il')
+				yasir5 = types.InlineKeyboardButton(f"dev @H_D_il", url= 'https://t.me/H_D_il')
 				mes.add(yasir,cm1, cm2, cm3, cm4, yasir5,stop)
-				bot.edit_message_text(chat_id=message.chat.id, message_id=ko, text='''🚹 Checking yor cards...\n by: @@H_D_il ''', reply_markup=mes)
+				bot.edit_message_text(chat_id=message.chat.id, message_id=ko, text='''🚹 Checking yor cards...\n by: @H_D_il ''', reply_markup=mes)
 				
 				
 					#	last = "Your card was declined."
