@@ -3,8 +3,8 @@ import telebot
 from telebot import types
 import telebot,os
 import time
-admin = 6514670561
-token="7351251414:AAFSsKpgnQ4dDnXBNjWTOCM9Kh_mn6dFfWA"
+admin = 5706011922
+token="6830795432:AAGvQ2niBOdL7KqoLyZxecslaGTjqt2JTIc"
 bot=telebot.TeleBot(token,parse_mode="HTML")
 
 @bot.message_handler(commands=["start"])
