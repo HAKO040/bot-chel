@@ -4,7 +4,7 @@ from telebot import types
 import telebot,os
 import time
 admin = 5706011922
-token = input('token="6830795432:AAGvQ2niBOdL7KqoLyZxecslaGTjqt2JTIc" ')
+token="6830795432:AAGvQ2niBOdL7KqoLyZxecslaGTjqt2JTIc"
 bot=telebot.TeleBot(token,parse_mode="HTML")
 
 @bot.message_handler(commands=["start"])
