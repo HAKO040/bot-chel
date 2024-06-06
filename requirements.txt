@@ -1,4 +1,2 @@
 telebot
-BeautifulSoup4
-pycountry
-faker
+brnt
