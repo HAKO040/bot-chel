@@ -9,7 +9,7 @@ bot = telebot.TeleBot(token)
 def start(message):
     name = message.from_user.first_name
     n = message.chat.first_name
-    bot.reply_to(message, f'𝐇𝒊 » {n} \n\nSend Your Bin 6 Numper \nIR ارسل البن المكون من 6 ارقام')
+    bot.reply_to(message, f'𝐇𝒊 » {n} \nSend Your Bin 6 Numper')
   
 @bot.message_handler(func=lambda m:True)
 #تلي @ttxxxn
