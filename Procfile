@@ -1,1 +1,1 @@
-worker: 
+worker: python cc-gen.py
