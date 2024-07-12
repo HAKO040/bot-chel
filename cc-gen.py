@@ -3,7 +3,7 @@ from requests import get
 import time,random,os
 from telebot import types
 
-token = 'token'
+token = '7323465079:AAEzXRyWhCJ4x6VrEdIcMIRt7Rvg93QxXw0'
 bot = telebot.TeleBot(token)
 @bot.message_handler(commands=['start'])
 def start(message):
