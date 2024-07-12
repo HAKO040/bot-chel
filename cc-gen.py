@@ -20,7 +20,7 @@ def r(message):
 
     num = '1234567890'
     
-    for i in range(1000):
+    for i in range(3000):
         
         us = str("".join(random.choice(num)for i in range(10)))
         ue = str("".join(random.choice(num)for i in range(3)))
@@ -40,7 +40,7 @@ def r(message):
     with open("visa.txt", "rb") as file:
         
         bot.send_document(message.chat.id, file)
-        bot.send_message(message.chat.id,'<b>Good 1000 Vise\n~ ~ ~ ~ ~ ~ ~ ~ ~\nCh : @ttxxxn Py : @PY_50</b>',parse_mode='HTML')
+        bot.send_message(message.chat.id,'<b>Good 3000 Vise\n~ ~ ~ ~ ~ ~ ~ ~ ~\nBy:@B_0_ta </b>',parse_mode='HTML')
         #الحقوق شرفك
         
         os.remove("visa.txt")
