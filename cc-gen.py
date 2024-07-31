@@ -3,7 +3,7 @@ from requests import get
 import time,random,os
 from telebot import types
 
-token = '7323465079:AAEzXRyWhCJ4x6VrEdIcMIRt7Rvg93QxXw0'
+token = '6390971315:AAFC-DsHmQV1If3BrewfCkQVGaFfp2fytSM'
 bot = telebot.TeleBot(token)
 @bot.message_handler(commands=['start'])
 def start(message):
@@ -20,7 +20,7 @@ def r(message):
 
     num = '1234567890'
     
-    for i in range(3000):
+    for i in range(1500):
         
         us = str("".join(random.choice(num)for i in range(10)))
         ue = str("".join(random.choice(num)for i in range(3)))
@@ -40,7 +40,7 @@ def r(message):
     with open("visa.txt", "rb") as file:
         
         bot.send_document(message.chat.id, file)
-        bot.send_message(message.chat.id,'<b>Good 3000 Vise\n~ ~ ~ ~ ~ ~ ~ ~ ~\nBy:@B_0_ta </b>',parse_mode='HTML')
+        bot.send_message(message.chat.id,'<b>Good 1500 Vise\n~ ~ ~ ~ ~ ~ ~ ~ ~\nBy:@oalaoui </b>',parse_mode='HTML')
         #الحقوق شرفك
         
         os.remove("visa.txt")
